@@ -34,6 +34,7 @@ Session(app)
 @app.route("/")
 def index():
         flash("WELCOME TO Nordbahnhale Kitchen");
+        #gggggg
         return render_template("index.html")
 
 
